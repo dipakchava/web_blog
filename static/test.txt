@@ -1,0 +1,13 @@
+this is a test and this is a static file
+my name is dipak i am provid addition program 
+a=23
+b=23
+print(a+b)
+output is:46
+
+
+<ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Ice_Cream">Ice Cream</a></li>
+              <li><a class="dropdown-item" href="Spofty">Spofty</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="FamilyPack">Family Pack</a></li>

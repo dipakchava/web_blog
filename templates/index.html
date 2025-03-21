@@ -1,0 +1,237 @@
+{% extends 'base.html' %}
+
+{% block title%}Home{% endblock title %}
+
+{% block body %}
+
+<div class="container-fluid my-4 px-0">  
+  
+   {% comment %} #hum jo hai my-4(margin hai ye top ki) agar ise hata chate hai to is class me se hata do margin chali jayengi image kai beech ki hum jo hai px-0 ko hata sakte hai. {% endcomment %} 
+    
+  <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          {% comment %} <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button> {% endcomment %}
+          {% comment %} <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button> {% endcomment %}
+          
+          {% comment %} above two images ko uncoment kiya hai. {% endcomment %}
+
+          {% comment %} <p>I know you my services so please check my services</p>
+           <h5>Welcome to the best Home Services</h5> {% endcomment %}
+          
+          <h4 class="text-center">Welcome to the best Ice_cream Services</h4>
+        {% comment %} </div> {% endcomment %}
+  
+       {% comment %} </div>  {% endcomment %}
+       
+
+      
+         </div>
+         <h5>Welcome to the best Ice_cream Services</h5>
+         <p>I know you my services so please check my services</p> 
+         {% comment %} use this code for above headline write. {% endcomment %}
+
+        <div class="carousel-inner">
+          
+          <div class="carousel-item active">
+            <img src="https://plus.unsplash.com/premium_photo-1684952851239-a9cc9567884e?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D=" class="d-block w-100" alt="...">
+          </div>  
+          <div class="carousel-item">
+            <img src="https://media.istockphoto.com/id/1319974532/photo/four-different-ones-ice-cream-ball-isolated-on-white-background.jpg?s=2048x2048&w=is&k=20&c=nDQSppiUYssgTx2oz9XXY2ZQctSIzHXzoijDAsdLsqY=" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://media.istockphoto.com/id/693199608/photo/selection-of-colorful-ice-cream-scoops.jpg?s=2048x2048&w=is&k=20&c=mpMjGRtmRil75R-uEnOazf0B52y0NGOIcD8LKXk5OMY=" class="d-block w-100" alt="...">
+          </div>
+    
+         
+        {% comment %} above to images are uncoment {% endcomment %}
+        
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+
+
+
+
+<div class="container my-3">
+<h1 class="my-2 text-center">Ice_cream</h1>
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://media.istockphoto.com/id/531953599/photo/fresh-strawberry-and-ice-cream-ball.jpg?s=2048x2048&w=is&k=20&c=ZZWAyI0iTOE0zq2NTPtWJ9y3TBKRRvfOyxJltTAjkak=" class="d-block w-100" alt="...">
+        
+        
+        <div class="card-body">
+          <p class="card-text">STRAWBERRY MOUSSE ICE CREAM</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://media.istockphoto.com/id/1615775086/photo/strawberry-pink-ice-cream-scoops-served-on-a-glass-dessert-bowl-isolated-on-white.jpg?s=2048x2048&w=is&k=20&c=RtAv22fShnJzod1eqkccLEfkR0A4QrrgahXojcwpEUE=" class="d-block w-100" alt="...">
+        
+        <div class="card-body">
+          <p class="card-text">STRAWBERRY SWIRL</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://media.istockphoto.com/id/585304196/photo/strawberry-ice-cream.jpg?s=2048x2048&w=is&k=20&c=K7ePNZ35L-QTikpLkncTK0bmFstbzrwZ2J-YDsOBHc0=" class="d-block w-100" alt="...">
+        
+        {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumble" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumble</text></svg> {% endcomment %}
+        <div class="card-body">
+          <p class="card-text">STRAWBERRY RIPPLE</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://media.istockphoto.com/id/503179523/photo/ice-cream-in-sundae-cup.jpg?s=2048x2048&w=is&k=20&c=TNoIdEvheyS4FJnGB0VkXWExYlHOw4zdiUx3Gd8qcdc=" class="d-block w-100" alt="...">
+        
+
+
+
+        {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+        <div class="card-body">
+          <p class="card-text">CHOCOLATE MARSHMALLOW</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://media.istockphoto.com/id/545990334/photo/ice-cream.jpg?s=2048x2048&w=is&k=20&c=r9PPGHYTLifCzlQBrclMYv4apLk9b6JfS9N8gojlz4E=" class="d-block w-100" alt="...">
+        
+        {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+        <div class="card-body">
+          <p class="card-text">CHOCOLATE ALMOND CRUNCH</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://media.istockphoto.com/id/96428864/photo/bowl-with-3-scoops-of-ice-cream-fruit-and-chocolate-drizzle.jpg?s=2048x2048&w=is&k=20&c=j2nKRFZrTCy7u0GB09Wg-SVpIXeDAqvU3794tikRS7A=" class="d-block w-100" alt="...">
+        
+       
+
+        {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+        <div class="card-body">
+          <p class="card-text">CARAMEL CHOCOLATE CHUNK</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://media.istockphoto.com/id/924057928/photo/ball-of-blueberry-ice-cream-isolated-on-white.jpg?s=2048x2048&w=is&k=20&c=R6SOIqrvpsrMvx7El3DN2iVrIbvwmYFN311kXgDuuOY=" class="d-block w-100" alt="...">
+        
+        {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+        <div class="card-body">
+          <p class="card-text">PISTACHIO ALMOND</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://media.istockphoto.com/id/1165316627/photo/single-strawberry-ice-cream-ball-or-scoop.jpg?s=2048x2048&w=is&k=20&c=zaQjFhrne-7VD_LbloMI_u0LCUqL4ob1RWZ9Q8QsZdc=" class="d-block w-100" alt="...">
+        {% comment %} https://media.istockphoto.com/id/476502586/photo/ice-cream-in-a-vase-isolated-on-white-background.jpg?s=2048x2048&w=is&k=20&c=yDisHvEhxlSpwwV5v3zJWOWBRI-XAtz90kCV1RbZw2A= {% endcomment %}
+        
+        {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+        <div class="card-body">
+          <p class="card-text">HAZELNUT PRALINE</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://media.istockphoto.com/id/498943726/photo/ice-cream-scoops-in-wafer-bowl.jpg?s=2048x2048&w=is&k=20&c=av27I6Ej92ItQ-Yiq4Ha8gX_fSHwr07ehVZ6s5BH_Dg=" class="d-block w-100" alt="...">
+        
+        <div class="card-body">
+          <p class="card-text">CARAMEL CRUNCH</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{%endblock body %}
+
+{% comment %} or-netbook-modern-clothes-isolated-on-white-color.jpg?s=2048x2048&w=is&k=20&c=uoqou_Pxp_in6Yufz4lPs1jreYni_2Je4fesNNAJVRg {% endcomment %}
+
